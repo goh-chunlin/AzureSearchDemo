@@ -53,15 +53,15 @@ namespace AzureSearch
             SearchParameters parameters;
             DocumentSearchResult<MeetupEvent> results;
 
-            Console.WriteLine("==========================================");
-            Console.WriteLine("   WELCOME TO AZURE SEARCH DEMO CONSOLE   ");
-            Console.WriteLine("==========================================");
-            Console.WriteLine("");
-            Console.WriteLine("");
-
             bool isContinue = true;
             while (isContinue)
             {
+
+                Console.WriteLine("==========================================");
+                Console.WriteLine("   WELCOME TO AZURE SEARCH DEMO CONSOLE   ");
+                Console.WriteLine("==========================================");
+                Console.WriteLine("");
+                Console.WriteLine("");
                 Console.WriteLine("Please enter search query.");
                 Console.WriteLine("Enter 999 if you want to exit.");
 
@@ -76,7 +76,7 @@ namespace AzureSearch
                 }
                 else
                 {
-                    Console.WriteLine($"Search the entire index for the term '{searchQuery}' and return only the name field:\n");
+                    Console.WriteLine($"Search the entire index for the term '{searchQuery}':\n");
 
                     parameters =
                         new SearchParameters()
