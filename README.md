@@ -1,7 +1,7 @@
 # AzureSearchDemo
 A Windows console app demonstrating the ability of Azure Search.
 
-Azure Search is a fully managed search-as-a-service in Microsoft Azure. It offers scalable full-text search for the program. In this program, we use the event data from .NET Developers Community Singapore to demonstrate how Azure Search works.
+[Azure Search](https://docs.microsoft.com/en-us/azure/search) is a fully managed search-as-a-service in Microsoft Azure. It offers scalable full-text search for the program. In this program, we use the event data from the [.NET Developers Community Singapore](https://www.meetup.com/NET-Developers-SG) to demonstrate how Azure Search works.
 
 Currently, this demo application covers the following features in Azure Search.
  - Create Azure Search index;
